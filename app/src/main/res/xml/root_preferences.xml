@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Memoria">
+
+        <ListPreference
+            app:defaultValue="Memoria interna"
+            app:entries="@array/set_memoria"
+            app:entryValues="@array/set_memoria"
+            app:icon="@android:drawable/ic_menu_save"
+            app:key="tipoMemoria"
+            app:summary="Desde donde se van a cargar los datos"
+            app:title="Fuente de datos" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
